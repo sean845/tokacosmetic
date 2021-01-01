@@ -1,0 +1,244 @@
+body {
+    margin: auto;
+    padding: auto;
+}
+.header-top {
+    background: black;
+    height: 150px;
+    position: relative;
+    /* position: fixed; */
+    z-index: 20;
+    width: 100%;
+}
+.header-img {
+    float: left;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+.header-menu {
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 150px;
+    font-size: 20px;
+}
+.header-menu a {
+    display: flex;
+    flex-direction: row;
+    color: rgb(253, 252, 252);
+    text-decoration: none;
+    margin-right: 100px;
+}
+
+.fa {
+    line-height: 150px;
+    margin-top: 55px;
+    font-size: 40px;
+}
+.header-menu a:hover {
+    color: orange;
+}
+.fa:hover {
+    color: purple;
+}
+@media (min-width:320px) and (max-width: 736px) {
+    .header-top {
+        height: 100px;
+    }
+    .header-img {
+        float: left;
+        margin-left: 40px;
+        margin-top: 10px;
+        width: 70%;
+        height: 100%;
+    }
+    .header-menu {
+        display: none;
+    }
+}
+.intro {
+    height: 1000px;
+    /* background: rgb(203, 241, 203); */
+    /* margin-top: -50px; */
+}
+.intro-top {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+.intro-title {
+    color: rgb(236, 172, 53);
+}
+.intro-top h1 {
+    font-size: 60px;
+    margin-top: 15%;
+    letter-spacing: 5px;
+}
+.intro-top h2 {
+    font-size: 40px;
+    margin-left: 3%;
+    letter-spacing: 5px;
+}
+.intro-top h3 {
+    margin-left: 3%;
+    font-size: 20px;
+    letter-spacing: 7px;
+}
+.intro-pic {
+    display: flex;
+    float: right;
+    margin-top: -23%;
+    margin-right: 6%;
+    opacity: 0.4;
+    width: 50%;     
+}
+.intro-mainpic {
+    width: 100%;
+    position: relative;
+    top: 50px;
+    
+}
+@media (min-width:320px) and (max-width: 736px) {
+    .intro {
+        height: 400px;
+    }
+    .intro-top {
+        display: inline;
+    }
+    .intro-top h1 {
+        font-size: 40px;
+        margin-left: 10px;
+        
+        margin-top: 20%;
+        letter-spacing: 1px;
+    }
+    .intro-top h2 {
+        font-size: 23px;
+        margin-left: 10px;
+        letter-spacing: 1px;
+        
+    }
+    .intro-top h3 {
+        /* margin-left: 3%; */
+        font-size: 20px;
+        letter-spacing: 1px;
+        margin: 40px;
+    }
+    .intro-pic {
+        display: none;
+    }
+}
+
+.about {
+    /* background: rgb(175, 213, 228); */
+}
+.about-title {
+    /* display: flex;
+    justify-content: center; */
+    height: 150px;
+    margin-bottom: 50px;
+    margin-left: 10%;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+.about-head {
+    color: orange;
+}
+.about-detail {
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    margin-bottom: 80px;
+    text-decoration: underline;
+}
+.about-pics {
+    display: flex;
+    justify-content: space-around;
+}
+.about-pic {
+    border-radius: 50%;
+}
+.about-pic:hover {
+    border-radius: 10%;
+}
+@media (min-width:320px) and (max-width: 736px) {
+    .about {
+        margin-top: 200px;
+    }
+    .about-title h1 {
+        font-size: 40px;
+    }
+    .about-title h2 {
+        font-size: 25px;
+    }
+
+    .about-detail {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+    .about-pics {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .about-pic {
+        border-radius: 10%;
+        width: 60%;
+        height: 100%;
+        margin-top: 50px;
+    }
+    .about-pic:hover {
+        border-radius: none;
+    }
+    .about-title {
+        /* display: flex;
+        justify-content: center; */
+        height: 150px;
+        margin-bottom: 50px;
+        margin-left: 10px;
+        margin-top: 150px;
+        font-size: 20px;
+        letter-spacing: 5px;
+    }
+}
+.good-title {
+    height: 150px;
+    margin-top: 200px;
+    margin-bottom: 150px;
+    margin-left: 10%;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+.good-head {
+    color: orange;
+}
+
+@media (min-width:320px) and (max-width: 736px) {
+    .good-title {
+        /* display: flex;
+        justify-content: center; */
+        height: 100px;
+        margin-top: 200px;
+        margin-bottom: 50px;
+        margin-left: 10px;
+        font-size: 25px;
+        letter-spacing: 5px;
+    }
+    .good-title h1 {
+        font-size: 40px;
+    }
+    .good-title h2 {
+        font-size: 25px;
+    }
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
+    height: 100px;
+    margin-top: 200px;
+}
